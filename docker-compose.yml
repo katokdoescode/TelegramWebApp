@@ -1,0 +1,13 @@
+services:
+  backend:
+    build:
+        context: ./pb-backend/
+        dockerfile: Dockerfile
+    ports:
+        - "8081:8081"
+  frontend:
+    build:
+      context: ./Telegram-Web-Bot/
+      dockerfile: Dockerfile
+    ports:
+      - "8082:8082"
