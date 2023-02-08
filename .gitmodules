@@ -1,0 +1,6 @@
+[submodule "Telegram-Web-Bot"]
+	path = Telegram-Web-Bot
+	url = https://github.com/BenNiks1/Telegram-Web-Bot.git
+[submodule "ntwgb"]
+	path = ntwgb
+	url = https://github.com/BenNiks1/ntwgb.git
