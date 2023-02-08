@@ -1,8 +1,8 @@
 services:
   backend:
     build:
-        context: ./pb-backend/
-        dockerfile: Dockerfile
+      context: ./pb-backend/
+      dockerfile: Dockerfile
     ports:
         - "8081:8081"
   frontend:
@@ -12,5 +12,6 @@ services:
     ports:
       - "8082:8082"
   bot:
-    context: ./ntwgb/
-    docerfile: Dockerfile
+    build:
+      context: ./ntwgb/
+      dockerfile: Dockerfile
